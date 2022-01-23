@@ -1,5 +1,7 @@
 :root {
-  --primary-color: rgb(238, 164, 80);
+  --primary-color: rgb(140, 0, 255);
+  --primary-color-dark: rgb(79, 10, 190);
+  --primary-color-light: rgb(230, 201, 252);
 }
 
 *,
@@ -16,5 +18,45 @@ html {
 
 body {
   font-size: 1.6rem;
-  font-family: sans-serif;
+  font-family: "Open Sans", sans-serif;
+  color: rgb(44, 41, 44);
+  background-color: rgb(247, 239, 247);
+}
+
+#main-header {
+  background-color: var(--primary-color);
+  color: #fff;
+  padding: 3.2rem 5%;
+  text-align: center;
+}
+
+#main-header h1 {
+  margin-bottom: 1.6rem;
+}
+
+.btn {
+  font: inherit;
+  padding: 0.8rem 2.4rem;
+  background-color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.btn-alt {
+  background-color: transparent;
+  border-color: transparent;
+  color: var(--primary-color);
+}
+
+.btn:hover {
+  background-color: var(--primary-color-dark);
+  border-color: var(--primary-color-dark);
+}
+
+.btn-alt:hover {
+  background-color: var(--primary-color-light);
+  border-color: transparent;
 }
