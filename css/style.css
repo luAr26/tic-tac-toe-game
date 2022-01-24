@@ -2,6 +2,8 @@
   --primary-color: rgb(140, 0, 255);
   --primary-color-dark: rgb(79, 10, 190);
   --primary-color-light: rgb(230, 201, 252);
+  --error-color: rgb(255, 60, 60);
+  --error-bg-color: rgb(253, 219, 219);
 }
 
 *,

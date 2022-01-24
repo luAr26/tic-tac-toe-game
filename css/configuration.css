@@ -23,6 +23,17 @@
   padding: 0.7rem;
 }
 
+.error input {
+  border-color: var(--error-color);
+  color: var(--error-color);
+  background-color: var(--error-bg-color);
+}
+
+#config-errors {
+  margin-bottom: 1.6rem;
+  color: var(--error-color);
+}
+
 #game-configuration {
   width: 90%;
   max-width: 64rem;
